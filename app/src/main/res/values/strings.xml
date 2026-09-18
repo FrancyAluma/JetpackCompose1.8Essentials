@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">composeDemo</string>
+    <string name="title_activity_play_ground">PlayGroundActivity</string>
+    <string name="title_activity_chap22_compose_state_and_recomposition">
+        Chap22ComposeStateAndRecomposition
+    </string>
+    <string name="title_activity_chap23_introto_composition_local">Chap23IntrotoCompositionLocal
+    </string>
+    <string name="title_activity_chap24_compose_slot_apis">Chap24ComposeSlotAPIs</string>
+    <string name="title_activity_chap25_compose_slot_apitutorial">Chap25ComposeSlotAPITutorial
+    </string>
+    <string name="title_activity_chap26_using_modifiers_in_compose">Chap26UsingModifiersInCompose
+    </string>
+    <string name="title_activity_chap27_annotated_strings_et_brush_styles">
+        Chap27AnnotatedStringsEtBrushStyles
+    </string>
+    <string name="title_activity_chap28_composing_layouts_with_row_and_column">
+        Chap28ComposingLayoutsWithRowAndColumn
+    </string>
+    <string name="title_activity_chap29_box_layouts_in_compose">Chap29BoxLayoutsInCompose</string>
+    <string name="title_activity_chap30_intro_to_flow_row_and_flow_column">
+        Chap30IntroToFlowRowAndFlowColumn
+    </string>
+    <string name="title_activity_chap31_flow_row_and_flow_column_tutorial">
+        Chap31FlowRowAndFlowColumnTutorial
+    </string>
+    <string name="title_activity_chap32_custom_layout_modifiers">Chap32CustomLayoutModifiers
+    </string>
+</resources>

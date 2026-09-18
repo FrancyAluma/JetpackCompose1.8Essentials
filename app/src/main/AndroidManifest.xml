@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComposeDemo"
+        tools:targetApi="31">
+        <activity
+            android:name=".Chap32CustomLayoutModifiers"
+            android:exported="false"
+            android:label="@string/title_activity_chap32_custom_layout_modifiers"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap31FlowRowAndFlowColumnTutorial"
+            android:exported="false"
+            android:label="@string/title_activity_chap31_flow_row_and_flow_column_tutorial"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap30IntroToFlowRowAndFlowColumn"
+            android:exported="false"
+            android:label="@string/title_activity_chap30_intro_to_flow_row_and_flow_column"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap29BoxLayoutsInCompose"
+            android:exported="false"
+            android:label="@string/title_activity_chap29_box_layouts_in_compose"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap28ComposingLayoutsWithRowAndColumn"
+            android:exported="false"
+            android:label="@string/title_activity_chap28_composing_layouts_with_row_and_column"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap27AnnotatedStringsEtBrushStyles"
+            android:exported="false"
+            android:label="@string/title_activity_chap27_annotated_strings_et_brush_styles"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap26UsingModifiersInCompose"
+            android:exported="false"
+            android:label="@string/title_activity_chap26_using_modifiers_in_compose"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap25ComposeSlotAPITutorial"
+            android:exported="false"
+            android:label="@string/title_activity_chap25_compose_slot_apitutorial"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap24ComposeSlotAPIs"
+            android:exported="false"
+            android:label="@string/title_activity_chap24_compose_slot_apis"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap23IntrotoCompositionLocal"
+            android:exported="false"
+            android:label="@string/title_activity_chap23_introto_composition_local"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap22ComposeStateAndRecomposition"
+            android:exported="true"
+            android:label="@string/title_activity_chap22_compose_state_and_recomposition"
+            android:theme="@style/Theme.ComposeDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlayGroundActivity"
+            android:exported="false"
+            android:label="@string/title_activity_play_ground"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeDemo" />
+    </application>
+
+</manifest>
