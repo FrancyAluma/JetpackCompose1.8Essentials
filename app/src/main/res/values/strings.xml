@@ -26,4 +26,11 @@
     </string>
     <string name="title_activity_chap32_custom_layout_modifiers">Chap32CustomLayoutModifiers
     </string>
+    <string name="title_activity_chap33_building_custom_layout">Chap33BuildingCustomLayout</string>
+    <string name="title_activity_chap34_constraint_layout_in_compose">
+        Chap34ConstraintLayoutInCompose
+    </string>
+    <string name="title_activity_chap35_working_with_constraint_layout_in_compose">
+        Chap35WorkingWithConstraintLayoutInCompose
+    </string>
 </resources>
