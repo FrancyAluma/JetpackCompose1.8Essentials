@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Button
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -15,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
+import androidx.constraintlayout.compose.Dimension
 import com.example.composedemo.ui.theme.ComposeDemoTheme
 
 class Chap35WorkingWithConstraintLayoutInCompose : ComponentActivity() {
@@ -64,11 +66,13 @@ fun VoyonsVoir ( modifier : Modifier = Modifier ) {
 @Composable
 fun MainScreen35 ( modifier : Modifier = Modifier) {
 
-    ConstraintLayout ( modifier.size(width = 400.dp , height = 250.dp) ) {
+    ConstraintLayout ( modifier.size(width = 350.dp , height = 220.dp) ) {
 
         val (button1 ,  button2 , button3) = createRefs()
 
-        val guide = createGuidelineFromStart(fraction = .60f)
+     //   val guide = createGuidelineFromStart(fraction = .60f)
+
+        val barrier = createEndBarrier(button1,button2)
 
         MyButton35(text = "Button1" , Modifier.constrainAs(button1) {
 
@@ -76,22 +80,28 @@ fun MainScreen35 ( modifier : Modifier = Modifier) {
            // a. top.linkTo(parent.top )
          //  a.  bottom.linkTo(button2.top)
             top.linkTo(parent.top , margin = 30.dp)
-            end.linkTo(guide, margin = 30.dp)
+            start.linkTo(parent.start , margin = 8.dp)
 
         })
 
-        MyButton35( text = "Button2" , Modifier.constrainAs ( button2 ) {
+        MyButton35( text = "Button2" , Modifier.width(150.dp).constrainAs ( button2 ) {
 
 
             top.linkTo(button1.bottom , margin = 20.dp)
-            end.linkTo(guide , margin = 40.dp)
+            start.linkTo(parent.start , margin = 8.dp)
 
         })
 
         MyButton35( text = "Button3" , Modifier.constrainAs(button3) {
 
-            top.linkTo(button2.bottom , margin = 40.dp)
-            end.linkTo(guide, margin = 20.dp)
+            linkTo( parent.top , parent.bottom,
+                topMargin = 8.dp, bottomMargin = 8.dp)
+
+            linkTo(button1.end , parent.end , startMargin = 30.dp ,
+                endMargin = 8.dp)
+            start.linkTo(barrier , margin = 30.dp)
+            width = Dimension.fillToConstraints
+            height = Dimension.fillToConstraints
         } )
 
     }

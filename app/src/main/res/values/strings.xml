@@ -33,4 +33,30 @@
     <string name="title_activity_chap35_working_with_constraint_layout_in_compose">
         Chap35WorkingWithConstraintLayoutInCompose
     </string>
+    <string name="title_activity_chap36_intrinsinc_size_in_compose">Chap36IntrinsincSizeInCompose
+    </string>
+    <string name="title_activity_chap37_coroutines_and_launched_effects">
+        Chap37CoroutinesAndLaunchedEffects
+    </string>
+    <string name="title_activity_chap38_an_overview_of_lists_and_grids">
+        Chap38AnOverviewOfListsAndGrids
+    </string>
+    <string name="title_activity_chap39_acompose_rowand_column_list">
+        Chap39AComposeRowandColumnList
+    </string>
+    <string name="title_activity_chap40_acompose_lazy_list_tutorial">
+        Chap40AComposeLazyListTutorial
+    </string>
+    <string name="title_activity_chap41_designing_adaptable_list_detail_layouts">
+        Chap41DesigningAdaptableListDetailLayouts
+    </string>
+    <string name="title_activity_chap42_lazy_list_sricky_headers_and_scroll_detection">
+        Chap42LazyListSrickyHeadersAndScrollDetection
+    </string>
+    <string name="title_activity_chap43_acompose_lazy_staggered_grid_tutorial">
+        Chap43AComposeLazyStaggeredGridTutorial
+    </string>
+    <string name="title_activity_chap44_vertical_pager_and_horizontal_pager">
+        Chap44VerticalPagerAndHorizontalPager
+    </string>
 </resources>

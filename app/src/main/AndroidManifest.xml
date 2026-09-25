@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +14,58 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeDemo"
         tools:targetApi="31">
+        <activity
+            android:name=".Chap44VerticalPagerAndHorizontalPager"
+            android:exported="false"
+            android:label="@string/title_activity_chap44_vertical_pager_and_horizontal_pager"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap43AComposeLazyStaggeredGridTutorial"
+            android:exported="false"
+            android:label="@string/title_activity_chap43_acompose_lazy_staggered_grid_tutorial"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap42LazyListStickyHeadersAndScrollDetection"
+            android:exported="true"
+            android:label="@string/title_activity_chap42_lazy_list_sricky_headers_and_scroll_detection"
+            android:theme="@style/Theme.ComposeDemo"
+            tools:ignore="MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Chap41DesigningAdaptableListDetailLayouts"
+            android:exported="false"
+            android:label="@string/title_activity_chap41_designing_adaptable_list_detail_layouts"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap40AComposeLazyListTutorial"
+            android:exported="false"
+            android:label="@string/title_activity_chap40_acompose_lazy_list_tutorial"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap39AComposeRowandColumnList"
+            android:exported="false"
+            android:label="@string/title_activity_chap39_acompose_rowand_column_list"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap38AnOverviewOfListsAndGrids"
+            android:exported="false"
+            android:label="@string/title_activity_chap38_an_overview_of_lists_and_grids"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap37CoroutinesAndLaunchedEffects"
+            android:exported="false"
+            android:label="@string/title_activity_chap37_coroutines_and_launched_effects"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".Chap36IntrinsincSizeInCompose"
+            android:exported="false"
+            android:label="@string/title_activity_chap36_intrinsinc_size_in_compose"
+            android:theme="@style/Theme.ComposeDemo" />
         <activity
             android:name=".Chap35WorkingWithConstraintLayoutInCompose"
             android:exported="false"
@@ -79,15 +133,9 @@
             android:theme="@style/Theme.ComposeDemo" />
         <activity
             android:name=".Chap22ComposeStateAndRecomposition"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/title_activity_chap22_compose_state_and_recomposition"
-            android:theme="@style/Theme.ComposeDemo">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.ComposeDemo" />
         <activity
             android:name=".PlayGroundActivity"
             android:exported="false"

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array  name="car_array">
+        <item>Toyota</item>
+        <item>Tesla</item>
+        <item>Ford</item>
+        <item>Honda</item>
+        <item>Chevrolet</item>
+        <item>BMW</item>
+        <item>Mercedes-Benz</item>
+        <item>Audi</item>
+        <item>Volkswagen</item>
+        <item>Hyundai</item>
+        <item>Kia</item>
+        <item>Nissan</item>
+        <item>Subaru</item>
+        <item>Mazda</item>
+        <item>Lexus</item>
+        <item>Porsche</item>
+        <item>Volvo</item>
+        <item>Jeep</item>
+        <item>Ram</item>
+        <item>GMC</item>
+        <item>Cadillac</item>
+        <item>Dodge</item>
+        <item>Chrysler</item>
+        <item>Land Rover</item>
+        <item>Jaguar</item>
+        <item>Aston Martin</item>
+        <item>Ferrari</item>
+        <item>Lamborghini</item>
+        <item>Maserati</item>
+    </string-array>
+
+</resources>
