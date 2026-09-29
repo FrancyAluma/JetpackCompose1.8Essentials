@@ -59,4 +59,27 @@
     <string name="title_activity_chap44_vertical_pager_and_horizontal_pager">
         Chap44VerticalPagerAndHorizontalPager
     </string>
+    <string name="title_activity_chap45_compose_visibility_animation">
+        Chap45ComposeVisibilityAnimation
+    </string>
+    <string name="title_activity_chap46_compose_state_driven_animation">
+        Chap46ComposeStateDrivenAnimation
+    </string>
+    <string name="title_activity_chap47_canvas_graphics_drawing_incompose">
+        Chap47CanvasGraphicsDrawingIncompose
+    </string>
+    <string name="title_activity_chap48_working_with_view_models_in_compose">
+        Chap48WorkingWithViewModelsInCompose
+    </string>
+    <string name="title_activity_chap49_acompose_view_model_tutorial">
+        Chap49AComposeViewModelTutorial
+    </string>
+    <string name="title_activity_chap50_an_overview_of_android_sqlite_databases">
+        Chap50AnOverviewOfAndroidSQLiteDatabases
+    </string>
+    <string name="title_activity_chap51_room_databases_and_compose">Chap51RoomDatabasesAndCompose
+    </string>
+    <string name="title_activity_chap52a_compose_room_database_and_repository_tutorial">
+        Chap52aComposeRoomDatabaseAndRepositoryTutorial
+    </string>
 </resources>
